@@ -1,0 +1,6 @@
+{ "name": "Xi a functional text editor with great side effects",
+  "highlight": "github",
+  "sections": [
+      {"section":"meetup/intro"},
+      {"section":"meetup/outro"}
+  ]}
