@@ -2,5 +2,6 @@
   "highlight": "github",
   "sections": [
       {"section":"meetup/intro"},
+      {"section":"meetup/parallel"},
       {"section":"meetup/outro"}
   ]}
