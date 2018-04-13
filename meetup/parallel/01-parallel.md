@@ -21,19 +21,27 @@
       aggregate = add(aggregate, arr[i]);
     }
 
+
 !SLIDE
 
-# Aggregate - Merge operation
-* Sets - Union
-* String - Concatenation
-* Integers - Addition
+# Iterative Accumulation
+## Two pieces to turn into map reduce
+
+![iterative accumulator](../../images/accumulator.png)
 
 !SLIDE
 
 # Identity Aggregate
 * Sets - Empty Set
 * String - Empty String
-* Integer - Zero (Addition)
+* Integers - Zero (Addition)
+
+!SLIDE
+
+# Aggregate - Merge operation
+* Sets - Union
+* String - Concatenation
+* Integers - Addition
 
 !SLIDE
 
@@ -52,7 +60,7 @@
 # A simple recipe for processing text in parallel
 ## We can get line height, line breaks, longest line, even parenthesis matching
 
-![accumulator](../../images/accumulator.png)
+![text map reduce](../../images/text_map_reduce.png)
 
 !SLIDE
 
@@ -65,16 +73,21 @@
 ## Mapping Jobs - Leaf Nodes
 ## Aggregates - Node Metadata
 
-![text map reduce](../../images/text_map_reduce.png)
+![text map reduce to tree](../../images/text_map_reduce_to_tree.png)
 
 !SLIDE
 
 # Rope
 ## Made from many strings
 
+![rope tree](../../images/rope_tree.png)
+
 !SLIDE
 
 # Monoid Homomorphism
+## Same Structure when aggregating - Homomorphism
+## Merge Function and identity - Monoid
+
 ![rope tree](../../images/rope_tree.png)
 
 !SLIDE
