@@ -21,28 +21,47 @@
 
 !SLIDE
 
-# Deletes break this
+# Operational Transforms work pretty well
+## Allow concurrent edits to a document
+## Deletions don't preserve order
+
+!SLIDE
+
+# Deletion causing ambiguous order
 
 ![operational transform delete](../../images/operational_transform_delete.png)
 
 !SLIDE
 
 # Deletes remove Information
-## Edits referencing removed text non deterministic
+## Edits referencing removed text have no clear reference point
 
 !SLIDE
 
 # Reverse the Polarity
-## Deletes add information to the document
+## Instead of deletes removing information they add a tombstone
+
+!SLIDE
+
+## Tombstones give a reference point for edits
 
 ![crdt tombstone](../../images/crdt_tombstone.png)
 
 !SLIDE
 
-# Now edit order and aggregation don't matter
-## Monotonic Join Semi Lattice
-# TODO picture
+# Firm basis for concurrent editing
+## Only trivial details of speed and efficiency are left
 
 !SLIDE
 
-# TODO Xi git like merging and rebasing
+# Monotonic Join Semi Lattice
+## Always increasing - Monotonic
+## Smallest Value - Join
+## Merging can happen in any order - Semi Lattice
+
+!SLIDE
+
+# Basis for Xi merging async plugins json
+## Additionaly uses git like merge and rebase mechanics
+
+### More detail then you ever wanted https://google.github.io/xi-editor/docs/crdt-details.html
