@@ -4,12 +4,12 @@
 !SLIDE
 
 # 16 ms window
-## Difficult, large overhead, marginal benefits
+## Using multiple cores difficult, large overhead, marginal benefits
 
 !SLIDE
 
 # Map Reduce for text
-## Spell to turn sequential stateful processing into parallel functional processing
+## Magic Spell to turn sequential stateful processing into parallel functional processing
 
 !SLIDE
 
