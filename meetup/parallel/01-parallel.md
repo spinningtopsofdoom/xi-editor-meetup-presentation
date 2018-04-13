@@ -52,7 +52,7 @@
 # A simple recipe for processing text in parallel
 ## We can get line height, line breaks, longest line, even parenthesis matching
 
-# TODO picture
+![accumulator](../../images/accumulator.png)
 
 !SLIDE
 
@@ -65,7 +65,7 @@
 ## Mapping Jobs - Leaf Nodes
 ## Aggregates - Node Metadata
 
-# TODO picture
+![text map reduce](../../images/text_map_reduce.png)
 
 !SLIDE
 
@@ -75,12 +75,12 @@
 !SLIDE
 
 # Monoid Homomorphism
-# TODO picture
+![rope tree](../../images/rope_tree.png)
 
 !SLIDE
 
 # Incremental update
-# TODO picture
+![rope tree](../../images/rope_tree.png)
 
 !SLIDE
 

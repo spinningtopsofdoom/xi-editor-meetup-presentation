@@ -10,38 +10,20 @@
 
 # Google Wave
 
-"Wave took 2 years to write and if we rewrote it today, it would take almost as long to write a second time" Joseph Gentle
+### "Wave took 2 years to write and if we rewrote it today, it would take almost as long to write a second time" Joseph Gentle
 
 !SLIDE
 
 # Operational Transform
 ## Instead of editing document send edits to document
 
-ABC -> access document -> ABDC -> release access
-ABC -> Add D after B -> ABDC
-
-# TODO Picture
+![operational transform](../../images/operational_transform.png)
 
 !SLIDE
 
 # Deletes break this
 
-ABC
-(1) Add 1 after A
-(2) Add 2 after B
-(3) Delete B
-
-ABC (0)
-A1BC (1)
-A1B2C (2)
-A12C (3)
-
-ABC (0)
-AB2C (2)
-A2C (3)
-A21C (1)
-
-# TODO picture
+![operational transform delete](../../images/operational_transform_delete.png)
 
 !SLIDE
 
@@ -53,12 +35,7 @@ A21C (1)
 # Reverse the Polarity
 ## Deletes add information to the document
 
-ABC (0)
-AB2C (2)
-AX2C (3)
-A1X2C (1)
-
-# TODO picture
+![crdt tombstone](../../images/crdt_tombstone.png)
 
 !SLIDE
 
